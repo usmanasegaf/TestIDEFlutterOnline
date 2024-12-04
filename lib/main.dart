@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter App!!',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorSchemeSeed: Colors.indigo,
         useMaterial3: true,
@@ -23,7 +24,6 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       home: const MyHomePage(title: 'Flutter Example App'),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
